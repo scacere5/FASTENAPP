@@ -1,0 +1,93 @@
+.zona-pagos {
+  background-color: #e1e1e1;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.titulo-seccion {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-bottom: 2px dotted black;
+  padding-bottom: 5px;
+}
+
+.fila-pago {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-bottom: 2px dotted black;
+  padding: 20px 0;
+}
+
+.columna-izquierda {
+  flex: 1;
+  min-width: 250px;
+}
+
+.etiqueta {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.valor-caja {
+  background: #dcdcdc;
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.valor-caja strong {
+  font-size: 18px;
+}
+
+.fecha-texto {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.btn-pago {
+  background-color: #075b74;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-pago:hover {
+  background-color: #063d50;
+}
+
+.botones-finales {
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-secundario {
+  background-color: #f25c5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn-secundario:hover {
+  background-color: #cc4444;
+}

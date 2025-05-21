@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+.zona-quejas {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.zona-quejas h2 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px dotted black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.grupo {
+  margin-bottom: 20px;
+  border: 2px dotted black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.fondo-gris {
+  background: #e0e0e0;
+}
+
+.grupo label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+  resize: vertical;
+}
+
+.archivo {
+  margin-top: 10px;
+}
+
+.acciones {
+  text-align: right;
+}
+
+.btn-azul {
+  background-color: #075b74;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-azul:hover {
+  background-color: #063d50;
+}
+
+.acciones-dobles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.btn-rojo {
+  background-color: #f25c5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn-rojo:hover {
+  background-color: #cc4444;
+}
