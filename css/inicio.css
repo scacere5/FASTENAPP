@@ -35,7 +35,6 @@ body {
   filter: invert(1);
 }
 
-/* Mostrar menú responsive solo en móvil */
 @media (min-width: 992px) {
   #menuResponsive {
     display: none !important;
@@ -258,14 +257,17 @@ body {
   color: white;
   cursor: pointer;
 }
-
-/* Barra vertical (|) estilizada */
 .barra {
   padding: 0 8px;
   user-select: none;
 }
 
-/* Ajuste para que el botón cerrar sesión tenga margen */
 .panel-perfil .btn-danger {
   font-weight: 600;
+}
+.rango-usuario {
+  font-weight: bold;
+  color: #075b74;
+  margin-bottom: 10px;
+  text-align: center;
 }

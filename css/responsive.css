@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column !important;
+  }
+
+  .izquierda, .derecha, .zona-quejas, .zona-pagos, .zona-visitas, .zona-reservas {
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 120px !important;
+  }
+
+  .novedad {
+    margin: 20px auto;
+  }
+
+  .perfil-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .barra {
+    display: none;
+  }
+}
